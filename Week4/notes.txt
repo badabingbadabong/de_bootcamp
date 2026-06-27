@@ -1,0 +1,7 @@
+https://free-apis.github.io/#/
+
+use postgresql for ex2 pgadmin
+setup docker desktop
+
+
+
