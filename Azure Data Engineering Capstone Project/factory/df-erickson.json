@@ -1,0 +1,15 @@
+{
+	"name": "df-erickson",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6a5ffbb-3aff-46e4-a029-7aecdd934d69",
+		"tenantId": "181c6ebe-da0f-4d8a-bff5-73253c47ef0d"
+	}
+}

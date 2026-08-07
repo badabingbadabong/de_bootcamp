@@ -1,0 +1,29 @@
+{
+	"name": "RawJSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_StorageErickson",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FolderDate": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "products.json",
+				"folderPath": {
+					"value": "products/@{formatDateTime(utcNow(),'yyyy-MM-dd')}",
+					"type": "Expression"
+				},
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
