@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-erickson"
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"LS_StorageErickson_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0807-193546-m9fakngg"
+		},
+		"LS_StorageErickson_properties_typeProperties_url": {
+			"value": "https://storageericksonv2.dfs.core.windows.net/"
+		},
+		"productsdata_properties_typeProperties_url": {
+			"value": "https://dummyjson.com/products?limit=100"
+		}
+	}
+}
